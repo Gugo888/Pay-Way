@@ -1,0 +1,163 @@
+.row {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.our-partners {
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 79px;
+    margin-top: 80px
+}
+
+.banks-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 24px;
+    background-color: #FEFEFE;
+    border-top: 1px solid rgba(40, 76, 109, 0.85);
+    border-bottom: 1px solid rgba(40, 76, 109, 0.85);
+    img {
+        width: 12%;
+    }
+}
+
+// .banks-info div:nth-child(4) {
+//     img {
+//         // height: 62px;
+//         width: 10%;
+//     }
+// }
+
+.scroll-up {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-bottom: 26px;
+
+    img {
+        height: 76px;
+    }
+
+    nav {
+        font-family: 'Montserrat arm';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        // color: #294861;
+        cursor: pointer;
+    }
+}
+
+.link-and-submit {
+    padding-top: 74px;
+    margin-bottom: 50px
+}
+
+.link-and-submit-child-one {
+
+    div {
+        padding-left: 5%;
+
+        span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            // color: #294861;
+        }
+
+        nav {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            // color: #294861;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+.link-and-submit-child-two {
+    background: #B0D93C;
+    box-shadow: 0px 3px 15px rgba(54, 57, 62, 0.2);
+    border-radius: 5px;
+    height: 385px;
+
+    nav {
+        font-family: 'Montserrat arm';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: #294861;
+        text-align: center;
+        margin-top: 19px;
+    }
+
+    .star {
+        margin-top: 17px;
+        text-align: center;
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    textarea {
+        margin-top: 19px;
+        margin-bottom: 29px;
+        width: 97%;
+        height: 170px;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 15px rgba(54, 57, 62, 0.2);
+        border-radius: 5px;
+        padding-top: 2px;
+        padding-left: 7px;
+    }
+
+    button {
+        width: 220px;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid #294861
+    }
+}
+
+
+.colorRowSun {
+    color: #284C6D;
+}
+
+.colorRowMoon {
+    color: #FEFEFE;
+}
+
+
+.link-and-submit-child-one .col-4:nth-child(n) {
+    color: #9a1515;
+}
+
+.backgroundcolorGreen {
+    background: #B0D93C;
+}
+
+.colorGreen {
+    color: #B0D93C
+}
+
+.colorBlurDark {
+    background-color: #294861;
+}
+

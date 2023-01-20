@@ -1,0 +1,54 @@
+<div class="parent row d-none d-md-flex" [ngClass]="{'colorRowSun':!options.isDark, 'colorRowMoon':options.isDark}">
+
+  <div class="parent-line col-md-10 col-xl-10">
+
+    <img class="col-2" src="/assets/header/header-logo.png">
+    <img class="lightning col-2" src="/assets/header/lightning.png">
+
+    <div class="col-6">
+      <div class="link">
+
+        <span routerLinkActive="active-link" routerLink="/services">Services</span>
+        <span routerLinkActive="active-link" routerLink="/news">News</span>
+        <span routerLinkActive="active-link" routerLink="/about-us">About Us</span>
+        <span routerLinkActive="active-link" routerLink="/map">Map</span>
+
+        <div>
+          <img class="search" [src]="'/assets/header/' + (options.isDark ? 'search-white.png' : 'search.png')">
+        </div>
+        <div>
+          <img class="langue" src="/assets/header/langue.png">
+          <img class="langue-btn" src="/assets/header/langue-vektor.png">
+        </div>
+        <div>
+          <img class="day" (click)="changeColor()" [src]="'/assets/header/' + (options.isDark ? 'sun' : 'moon') +'.png'">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+<div class="mobile-header d-md-none col-12">
+  <div class="col-2">
+    <img style="height:23px" src="assets/header/logo-mobile.png">
+  </div>
+  <div class="col-5">
+    <img src="assets/header/lightning-mobile.png">
+  </div>
+  <div class="col-1">
+    <img style="width: 24px;height:24px" src="assets/header/search.png">
+  </div>
+  <div class="col-2">
+    <img style="width:33px" src="assets/header/langue.png">
+    <img style="width:7px;height:3.5px;margin-left: 4px;margin-top:-15px" src="assets/header/langue-vektor.png">
+  </div>
+  <div class="col-1">
+    <img src="assets/header/burger-green.png">
+  </div>
+</div>
